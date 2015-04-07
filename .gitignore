@@ -1,2 +1,5 @@
 node_modules
-*.js
+lib/slack/*.js
+._.DS_Store
+._*
+.idea

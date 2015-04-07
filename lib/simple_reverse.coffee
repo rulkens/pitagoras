@@ -17,7 +17,11 @@
 
 Slack = require '..'
 
-token = 'xoxb-YOUR-TOKEN-HERE' # Add a bot at https://my.slack.com/services/new/bot and copy the token here.
+token = process.argv[2]
+if not token
+  console.error "Token is required"
+  process.exit 1
+
 autoReconnect = true
 autoMark = true
 

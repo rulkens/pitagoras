@@ -1,8 +1,16 @@
 # Node.js Slack Client Library
 
-## Travis-CI Build Status
+## Running the bot
 
-[![Build Status](https://travis-ci.org/slackhq/node-slack-client.png?branch=master)](https://travis-ci.org/slackhq/node-slack-client)
+Put the following environment variables in your path:
+
+    SLACK_API_KEY
+    SLACK_DEFAULT_CHANNEL
+    
+Then 
+    
+    /bin/slack
+    
 
 ## Description
 

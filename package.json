@@ -26,8 +26,13 @@
   },
   "dependencies": {
     "coffee-script": "~1.9.0",
-    "ws": "0.4.31",
-    "log": "1.4.0"
+    "externalip": "^1.0.0",
+    "log": "1.4.0",
+    "querystring": "*",
+    "reboot": "0.0.1",
+    "request": "*",
+    "underscore": "^1.8.2",
+    "ws": "0.4.31"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
