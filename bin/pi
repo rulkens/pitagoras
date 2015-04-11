@@ -3,7 +3,8 @@
 if(!process.env.SLACKBOT_API_TOKEN){
     console.log('please add SLACKBOT_API_TOKEN to the environment variables');
     process.exit(1);
+} else {
+    var Pi = require('../lib/pi');
+    var token = process.argv[2] || process.env.SLACKBOT_API_TOKEN;
+    var pi = new Pi(token);
 }
-var Pi = require('../lib/pi');
-var token = process.env.SLACKBOT_API_TOKEN;
-var pi = new Pi(token);
